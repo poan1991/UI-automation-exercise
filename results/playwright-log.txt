@@ -1,0 +1,59 @@
+{"level":30,"time":"2026-02-23T11:51:48.178Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Listening on 127.0.0.1:57697"}
+{"level":30,"time":"2026-02-23T11:51:49.313Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-02-23T11:51:49.806Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-02-23T11:51:49.806Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-02-23T11:51:49.806Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-02-23T11:51:49.809Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-02-23T11:51:49.809Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@740a05a5602f8af1284f2649b01eae8f\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=e6012b7c-10ee-414e-bc70-20a33ea338d7\"}"}
+{"level":30,"time":"2026-02-23T11:51:49.812Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Setting default timeout for context context=e070e6a4-aa26-42ed-95d9-dcbfc40c7ba1 to 10000"}
+{"level":30,"time":"2026-02-23T11:51:49.812Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Changed active context: context=e070e6a4-aa26-42ed-95d9-dcbfc40c7ba1"}
+{"level":30,"time":"2026-02-23T11:51:49.909Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Video path: undefined"}
+{"level":30,"time":"2026-02-23T11:51:49.909Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Changed active page"}
+{"level":30,"time":"2026-02-23T11:51:50.495Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"End of node method newPage"}
+{"level":30,"time":"2026-02-23T11:51:50.499Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-02-23T11:51:50.500Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-02-23T11:51:50.516Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-02-23T11:51:50.520Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-02-23T11:51:50.520Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-02-23T11:51:50.539Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"End of node method fillText"}
+{"level":30,"time":"2026-02-23T11:51:50.541Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-02-23T11:51:50.541Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-02-23T11:51:50.564Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"End of node method fillText"}
+{"level":30,"time":"2026-02-23T11:51:50.565Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Start of node method click"}
+{"level":30,"time":"2026-02-23T11:51:50.566Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-02-23T11:51:50.629Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"End of node method click"}
+{"level":30,"time":"2026-02-23T11:51:50.633Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-02-23T11:51:50.636Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Removed page=f80ae773-3248-4233-8b5a-1ea0917e9048 from context=e070e6a4-aa26-42ed-95d9-dcbfc40c7ba1 page stack"}
+{"level":30,"time":"2026-02-23T11:51:50.650Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:13622:59)
+    at PlaywrightServer.setTimeout (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:13873:57)
+    at Object.onReceiveHalfClose (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-02-23T11:51:50.654Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T11:51:50.654Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:13622:59)
+    at PlaywrightServer.setTimeout (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/index.js:13873:57)
+    at Object.onReceiveHalfClose (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-02-23T11:51:50.657Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T11:51:50.657Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T11:51:51.196Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-02-23T11:51:51.196Z","pid":31915,"hostname":"Antti-Mac-mini.wlan","msg":"End of node method closeAllBrowsers"}

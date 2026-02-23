@@ -33,6 +33,9 @@ User adds Sauce Labs Bolt T-Shirt to cart
     Click  xpath=//div[@data-test="inventory-item-name" and contains(text(), "Bolt T-Shirt")]
     Click  ${ADD_TO_CART_BUTTON}
 
+User navigates back to products
+    Click  ${BACK_TO_PRODUCTS}
+
 User navigates to cart
     Click  ${SHOPPING_CART_BADGE}
 

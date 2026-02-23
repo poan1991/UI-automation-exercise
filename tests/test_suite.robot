@@ -58,7 +58,7 @@ User can add multiple items to cart and complete purchase successfully
     Given user opens the Saucedemo login page
     When user logs in with valid credentials
     And user adds Sauce Labs Backpack to cart
-    Click  ${BACK_TO_PRODUCTS}
+    And user navigates back to products
     And user adds Sauce Labs Bolt T-Shirt to cart
     And user navigates to cart
     Then Sauce Labs Backpack should be in cart
